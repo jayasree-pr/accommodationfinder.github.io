@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+.acc{
+
+    padding: 0;
+}
+
+.nav-responsive{
+    display:flexbox;
+    
+    width: 100vw;
+    justify-content: space-between;
+    background-color:peachpuff;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Comic Neue', cursive;
+    
+
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+table{
+    border: 0;
+
+}
+.tag{
+    color: white;
+    font-size: 40px;
+}
+
+form{
+    font-size: 25px;
+    color: red;
+    display: inline-block;
+}
+.container {
+    width: 500px;
+    clear: both;
+    margin-top: 1.5em;
+  }
+  
+  .container input {
+    width: 100%;
+    clear: both;
+  }
+  button{
+      padding: 0em 1em;
+      color:red;
+      background-color: powderblue;
+      margin: 2em;
+      width: 10em;
+      height: 3em;
+  }
+  .hotel{
+      padding: 0%;
+      width: 100%;
+  }
+  .hotel table> tr> {
+      padding: 0;
+  }
+  .datas{
+      padding: 0.5em 0em;
+      
+  }
+  .container{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+.btn{
+    margin-left: 2.5em;
+    align-self: center;
+
+}
+#myform{
+    margin-top: 2em;
+    width: 100%;
+    height: 100%;
+}
+.text{
+    text-align: center;
+    font: 2.5em Comic Neue;
+    padding-left: 2em;
+    
+}
+.form-popup{
+    align-self: center;
+    padding: 0em 1em;
+}
+h2.booked{
+    
+    text-align: center;
+}
+#details{
+    text-align: center;
+    font: 1.5em sans-serif;
+}
+.tdetails{
+    font: 1.3em Comic Neue;
+    padding-left: 40%;
+    
+}
+.heading{
+    display: inline-block;
+    padding-left: 40%;
+}

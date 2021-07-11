@@ -1,0 +1,35 @@
+<%- include('header') %>
+    <div class="form-popup" id="myForm">
+        <div class="text">Book your stay</div>
+      <form action="/form/booked" method="POST">
+        <div class="container">
+          <div class="datas">     
+            <label>Your Name :</label>
+            <input type="text" name="name" placeholder="Your Name">
+             </div>
+       <div class="datas">     
+      <label>Place:</label>
+      <input type="text" name="place" placeholder="Place">
+       </div>
+       <div class="datas">
+      <label>Hotel Name</label>
+      <input type="text" name="hname" placeholder="hotel name">
+       </div>
+       <div class="datas">
+      <label>Check-in:</label>
+      <input type="date" name="checkin" placeholder="Check-in">
+       </div>
+      <div class="datas">
+      <label>Check-out:</label>
+      <input type="date" name="checkout" placeholder="Check-out">
+      </div>
+      <div class="btn">
+       
+      <button type="submit" value="Book">Book</button>
+      <button type="reset" value="close">Close</button>
+    </div>
+      </form>
+    </div>
+</body>
+</html>
+

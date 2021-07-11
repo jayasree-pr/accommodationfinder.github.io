@@ -1,0 +1,36 @@
+<%- include('header') %>
+
+
+
+    <div class="heading"><h2 class="booked"><p><%= users.name %></p> Accomodation Booked</h2></div>
+    <h3 id="details">Details</h3>
+    <div class="tablecont">
+    <table class="tdetails">
+        <tr>
+            <td>
+                <p>Hotel Name : </p>
+            </td>
+            <td>
+                <%= users.hname %>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Check-in : </p>
+            </td>
+            <td>
+                <%= users.checkin %>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Check-out :</p>
+            </td>
+            <td>
+                <%= users.checkout %>
+            </td>
+        </tr>
+    </table>
+    </div>
+    
+    <%- include('footer') %>
